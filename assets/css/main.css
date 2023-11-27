@@ -1444,11 +1444,44 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
+			padding: 5px;
 		}
 
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				 opacity: 1;
+ 				 display: block;
+  				 width: 100%;
+				 height: auto;
+				 transition: .5s ease;
+				 backface-visibility: hidden;
+			}
+
+			.gallery article:hover .image{
+				opacity:0.3;
+			}
+
+			.sub{
+				 transition: .5s ease;
+				 opacity: 0;
+				 position: absolute;
+				 top: 50%;
+				 left: 50%;
+				 transform: translate(-50%, -50%);
+				 -ms-transform: translate(-50%, -50%);
+				 text-align: center;
+			}
+
+			.gallery article:hover .sub{
+				opacity:1;
+			}
+
+			.subtext{
+				border-radius: 20px;
+				color: black;
+				font-size: 25px;
+				padding: 5px 5px;
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -1805,6 +1838,7 @@ input, select, textarea {
 				transform: translateY(7em);
 			}
 
+/*			for smaller screens until max is 480px*/
 		@media screen and (max-width: 480px) {
 
 			.gallery {
@@ -1849,6 +1883,11 @@ input, select, textarea {
 
 			#header h1 a {
 				font-size: 1.25em;
+
+			}
+				#header h1 a:hover {
+				font-size: 1.25em;
+				text-decoration: none;
 			}
 
 		#header nav {
@@ -1877,6 +1916,12 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+					}
+
+					#header a:hover {
+
+						color: orange;
+						text-decoration: underline;
 					}
 
 		@media screen and (max-width: 736px) {
