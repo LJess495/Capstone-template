@@ -2348,6 +2348,14 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+/* Three */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/thumbs/02.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 
 /* Contact */
 
