@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,300i,400i");
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*
 	Ethereal by HTML5 UP
 	html5up.net | @ajlkn
@@ -41,23 +41,10 @@ blockquote, q {
 	quotes: none;
 }
 
-.span-7 p{
-	color: white;
-}
-
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
-
-.modal p {
-	line-height: 2;
-}
-
-.vid-container{
-	padding: 30px;
-}
-
 
 table {
 	border-collapse: collapse;
@@ -306,7 +293,7 @@ input, select, textarea {
 		}
 
 		body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "Barlow Condensed", "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -369,12 +356,6 @@ input, select, textarea {
 	h2 {
 		font-size: 2.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
-	}
-
-	h4 {
-		font-size: 4em;
-		line-height: 1.7em;
 		letter-spacing: -0.05em;
 	}
 
@@ -508,7 +489,7 @@ input, select, textarea {
 	label {
 		color: rgba(255, 255, 255, 0.875);
 		display: block;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Barlow Condensed, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 700;
 		margin: 0 0 0.4875rem 0;
@@ -630,7 +611,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Barlow Condensed';
 				font-weight: 900;
 			}
 
@@ -740,7 +721,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Barlow Condensed';
 			font-weight: 400;
 		}
 
@@ -757,7 +738,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Barlow+Condensed';
 		}
 
 /* Image */
@@ -863,11 +844,11 @@ input, select, textarea {
 			object-position: center;
 		}
 
-		.image[data-position="25% 25%"] img {
-			-moz-object-position: 25% 25%;
-			-webkit-object-position: 25% 25%;
-			-ms-object-position: 25% 25%;
-			object-position: 25% 25%;
+		.image[data-position="75% 25%"] img {
+			-moz-object-position: 75% 75%;
+			-webkit-object-position: 75% 75%;
+			-ms-object-position: 75% 75%;
+			object-position: 755% 75%;
 		}
 
 		.image[data-position="75% 25%"] img {
@@ -2014,7 +1995,7 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-2-5 {
-				width: 83.33332%;
+				width: 10.33332%;
 			}
 
 			.gallery .group .span-2-75 {

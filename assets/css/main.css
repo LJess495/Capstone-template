@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/*@import url("fontawesome-all.min.css");*/
+@import url("fontawesome-all.min.css");
 
 /*
 	Big Picture by HTML5 UP
@@ -968,6 +968,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background: url("images/overlay.png");
+
 		}
 
 		.image img {
@@ -1001,6 +1002,12 @@ input, select, textarea {
 				width: auto;
 			}
 
+
+		.fa-instagram{
+			 height:26px;
+      width:26px;
+      display:inline-block;
+		}
 /* List */
 
 	ul.default {
@@ -1164,7 +1171,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
+		cursor: pointer;
 	}
 
 		ul.icons li {
@@ -1178,7 +1185,13 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
+			text-decoration: none;
+			font-size: 25px;
+
+
 		}
+	
+
 
 /* Sections/Article */
 
@@ -1870,7 +1883,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: black;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1920,11 +1933,13 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+						color:#EAD7D7;
 					}
+
 
 					#header a:hover {
 
-						color: orange;
+						color: #E3655B;
 						text-decoration: underline;
 					}
 
@@ -2092,7 +2107,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #29006470;
+				background: #EAD7D7;
 			}
 
 			.main.style3.secondary {
@@ -2225,7 +2240,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
+		background: black;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2300,6 +2315,8 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+
+	
 /* One */
 
 	#one {
