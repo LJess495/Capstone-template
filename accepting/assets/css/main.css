@@ -46,9 +46,12 @@ blockquote, q {
 		content: none;
 	}
 
-p {
-	line-height: normal;
+.modal p {
+	line-height: 2;
+}
 
+.vid-container{
+	padding: 30px;
 }
 table {
 	border-collapse: collapse;
