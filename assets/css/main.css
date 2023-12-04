@@ -565,7 +565,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
+		letter-spacing: .1em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2114,6 +2114,15 @@ input, select, textarea {
 				background: #f5f6f7;
 			}
 
+			.statement {
+				    display: block;
+				    margin: 1em 5em 1em 5em;
+				    padding: 1em 1em 1em 1em;
+				    text-align: left;
+				    color: #EAD7D7;
+}
+			}
+
 		.main.dark {
 			color: #ffffff;
 		}
@@ -2150,6 +2159,10 @@ input, select, textarea {
 
 		}
 
+		@media screen and (min-width:1280px){
+			.statement
+			{margin: 1em 7em 1em 7em;}
+		}
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
@@ -2330,6 +2343,15 @@ input, select, textarea {
 
 	#two {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/* Three */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/thumbs/02.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
