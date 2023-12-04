@@ -33,6 +33,15 @@ body {
 	line-height: 1;
 }
 
+.modal p {
+
+	line-height: 2;
+}
+
+.vid-container{ 
+padding: 30px;
+ }
+
 ol, ul {
 	list-style: none;
 }
