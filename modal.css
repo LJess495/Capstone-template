@@ -17,7 +17,7 @@
 
 .modal-content {
     align-self: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     padding: 2rem 3rem;
     width: 84rem;
     max-height: 85vh;
