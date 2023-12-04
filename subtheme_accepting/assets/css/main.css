@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,300i,400i");
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*
 	Ethereal by HTML5 UP
 	html5up.net | @ajlkn
@@ -293,7 +293,7 @@ input, select, textarea {
 		}
 
 		body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "Barlow Condensed", "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -489,7 +489,7 @@ input, select, textarea {
 	label {
 		color: rgba(255, 255, 255, 0.875);
 		display: block;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Barlow Condensed, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 700;
 		margin: 0 0 0.4875rem 0;
@@ -611,7 +611,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Barlow Condensed';
 				font-weight: 900;
 			}
 
@@ -721,7 +721,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Barlow Condensed';
 			font-weight: 400;
 		}
 
@@ -738,7 +738,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Barlow+Condensed';
 		}
 
 /* Image */
