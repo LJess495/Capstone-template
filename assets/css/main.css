@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-/*@import url("fontawesome-all.min.css");*/
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
 
 /*
 	Big Picture by HTML5 UP
@@ -32,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-
 }
 
 ol, ul {
@@ -436,7 +434,7 @@ input, select, textarea {
 			transform-origin: 50% 50%;
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: 'Barlow Condensed', sans-serif;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -502,7 +500,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: 'Barlow Condensed', sans-serif;
+		font-family: "Source Sans Pro", "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -933,7 +931,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Barlow Condensed', sans-serif;
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -950,7 +948,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Barlow Condensed', sans-serif;
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 /* Image */
@@ -1259,7 +1257,7 @@ input, select, textarea {
 				animation: spinner-rotate 0.75s infinite linear !important;
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: 'Barlow Condensed', sans-serif;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1482,10 +1480,8 @@ input, select, textarea {
 			.subtext{
 				border-radius: 20px;
 				color: black;
-				font-size: 50px;
-				font-weight: 600;
-				line-height: normal;
-/*				padding: 5px 5px;*/
+				font-size: 25px;
+				padding: 5px 5px;
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -2092,7 +2088,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #29006470;
+				background: #250455;
 			}
 
 			.main.style3.secondary {
