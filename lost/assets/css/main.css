@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,300i,400i");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /*
 	Ethereal by HTML5 UP
@@ -304,7 +304,7 @@ input, select, textarea {
 		}
 
 		body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: 'Barlow Condensed', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -1586,6 +1586,19 @@ input, select, textarea {
 			opacity: 0.5;
 		}
 
+		
+/* Sections/Article */
+
+	header {
+		margin-bottom: 1em;
+	}
+
+		header p {
+			display: block;
+			margin: 1em 0 0 0;
+			padding: 0 0 0.5em 0;
+		}	
+
 	/* Header */
 
 	#header {
@@ -1594,7 +1607,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: black;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1607,7 +1620,6 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
-			
 		}
 
 			#header h1 a {
@@ -1615,6 +1627,7 @@ input, select, textarea {
 
 			}
 				#header h1 a:hover {
+				font-size: 1.25em;
 				text-decoration: none;
 			}
 
@@ -1634,7 +1647,6 @@ input, select, textarea {
 					display: inline-block;
 					margin-left: 0.5em;
 					font-size: 0.9em;
-					padding-left: 0;
 				}
 
 					#header nav ul li a {
@@ -1645,10 +1657,13 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+						color:#EAD7D7;
 					}
 
+
 					#header a:hover {
-						color: orange;
+
+						color: #E3655B;
 						text-decoration: underline;
 					}
 

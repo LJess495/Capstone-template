@@ -36,6 +36,10 @@
     top: 0;
 }
 
+.btn-close:hover{
+    color:dimgray;
+}
+
 .show-modal {
     opacity: 1;
     visibility: visible;
@@ -55,13 +59,27 @@
 }
 
 .vid-container iframe {
-    height: 40vh;
+    height: 46vh;
     width: 90vw;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 1000px) {
     .vid-container iframe {
         height: 80vh;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .vid-container iframe {
+        height: 66vh;
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .vid-container iframe {
+        height: 28vh;
         width: 80vw;
     }
 }
