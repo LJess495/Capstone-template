@@ -33,15 +33,6 @@ body {
 	line-height: 1;
 }
 
-.modal p {
-
-	line-height: 2;
-}
-
-.vid-container{
-	padding: 30px;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -49,13 +40,24 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 .span-7 p{
-	color: white;
+	color: #EAD7D7;
 }
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
+
+.modal p {
+	line-height: 2;
+}
+
+.vid-container{
+	padding: 30px;
+}
+
 
 table {
 	border-collapse: collapse;
@@ -356,7 +358,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		color: inherit;
-		letter-spacing: -0.0325em;
+		letter-spacing: 0em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -367,13 +369,13 @@ input, select, textarea {
 	h2 {
 		font-size: 2.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
+	
 	}
 
 	h4 {
 		font-size: 4em;
 		line-height: 1.7em;
-		letter-spacing: -0.05em;
+		
 	}
 
 	@media screen and (max-width: 736px) {
@@ -803,6 +805,10 @@ input, select, textarea {
 			-webkit-object-position: top left;
 			-ms-object-position: top left;
 			object-position: top left;
+
+
+
+
 		}
 
 		.image[data-position="top"] img {
@@ -865,7 +871,7 @@ input, select, textarea {
 			-moz-object-position: 25% 25%;
 			-webkit-object-position: 25% 25%;
 			-ms-object-position: 25% 25%;
-			object-position: 25% 25%;
+			object-position: 47% 25%;
 		}
 
 		.image[data-position="75% 25%"] img {
@@ -1482,8 +1488,13 @@ input, select, textarea {
 				position: relative;
 				left: 0.1rem;
 				font-size: 1.75rem;
+				color:#9ed8d5;
 			}
 
+			.button.icon.circle.fa-angle-right:hover{
+				background-color: #EAD7D7;
+			}
+			
 		input[type="submit"].fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
@@ -1519,10 +1530,11 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: white;
+			background-color: #446c71;
 			box-shadow: none;
 			color: #2e2b37 !important;
 		}
+
 
 			input[type="submit"].primary.color1,
 			input[type="reset"].primary.color1,
@@ -1585,8 +1597,7 @@ input, select, textarea {
 			cursor: default;
 			opacity: 0.5;
 		}
-
-		
+	
 /* Sections/Article */
 
 	header {
@@ -1663,8 +1674,8 @@ input, select, textarea {
 
 					#header a:hover {
 
-						color: #E3655B;
-						text-decoration: underline;
+					color: #E3655B;
+						
 					}
 
 		@media screen and (max-width: 736px) {
@@ -1817,8 +1828,10 @@ input, select, textarea {
 
 			.gallery .image:hover:after {
 				opacity: 0;
+				
 			}
 
+	
 		.gallery .group {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -2202,8 +2215,9 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+/*				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);*/
 				background-size: 128px 128px, auto;
+				color:#86b8bc;
 			}
 
 			.panel > *.color1 {
@@ -3268,7 +3282,7 @@ input, select, textarea {
 	}
 
 		.panel.banner .content {
-			padding: 3.5rem 3.5rem 2rem 3.5rem ;
+			padding: 3.5rem 2.5rem 2rem 3.5rem ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3311,13 +3325,13 @@ input, select, textarea {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
-				object-fit: cover;
+				/*object-fit: cover;
 				display: block;
 				position: absolute;
 				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
+			    left: -74px;
+			    width: 128%;
+			    height: 100%;*/
 			}
 
 		.panel.banner.left {
@@ -3417,8 +3431,10 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			padding: 3.5rem 3.5rem 2rem 3.5rem ;
-		}
+			padding: 1rem 1rem;
+		    font-size: 20px;
+		    line-height: 2rem;
+				}
 
 		.panel.spotlight .image {
 			position: absolute;
@@ -3427,6 +3443,8 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			z-index: 0;
+			background-image: linear-gradient(0deg, rgb(82 191 210 / 86%) 70%, rgb(109 203 181 / 86%)) !important;
+
 		}
 
 			.panel.spotlight .image img {
@@ -3467,14 +3485,15 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.panel.spotlight .content {
-			padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
-			-moz-flex-direction: column !important;
-			-webkit-flex-direction: column !important;
-			-ms-flex-direction: column !important;
-			flex-direction: column !important;
-			background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 70%, rgba(0, 0, 0, 0.175)) !important;
-			min-height: 25rem;
-		}
+			padding: 2rem 3.75rem 2rem 3.75rem;
+		    -moz-flex-direction: column !important;
+		    -webkit-flex-direction: column !important;
+		    -ms-flex-direction: column !important;
+		    flex-direction: column !important;
+		  /* background-image: linear-gradient(0deg, rgb(81 207 229 / 35%) 70%, rgb(70 218 184 / 18%)) !important;
+		   */ min-height: 25rem;
+		    font-size: 18px;
+				}
 
 	}
 
@@ -3511,6 +3530,7 @@ input, select, textarea {
 		flex-shrink: 1;
 		height: 100%;
 		padding: 5rem;
+		background-color: black;
 	}
 
 		@media screen and (orientation: portrait) {
@@ -3580,7 +3600,8 @@ input, select, textarea {
 		cursor: default;
 		position: relative;
 		height: 32rem;
-		box-shadow: 0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575);
+		box-shadow: 0 1rem 3rem 1rem rgb(157 215 212);
+
 	}
 
 		#wrapper > .scrollZone {
@@ -3661,7 +3682,7 @@ input, select, textarea {
 			flex-direction: column;
 			height: auto;
 			margin: 0 0 5rem 0;
-			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
+/*			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);*/
 		}
 
 			#wrapper > .scrollZone {

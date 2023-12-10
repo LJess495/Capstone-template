@@ -1474,7 +1474,8 @@ input, select, textarea {
 			}
 
 			.gallery article:hover .image{
-				opacity:0.3;
+				opacity:0.1;
+
 			}
 
 			.sub{
@@ -1486,15 +1487,16 @@ input, select, textarea {
 				 transform: translate(-50%, -50%);
 				 -ms-transform: translate(-50%, -50%);
 				 text-align: center;
+
 			}
 
 			.gallery article:hover .sub{
 				opacity:1;
+
 			}
 
 			.subtext{
 				border-radius: 20px;
-				color: black;
 				font-size: 50px;
 				font-weight: 600;
 				line-height: normal;
@@ -2099,7 +2101,7 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 2em 0 2em 0;
 		}
 
 			.main.style3 .content > header {
@@ -2321,11 +2323,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
+		/*background: url("images/overlay.png"), url("../../images/intro.jpg");
+		*/background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+		background-color: #000000eb;
 	}
 
 
@@ -2351,10 +2354,11 @@ input, select, textarea {
 /* Three */
 
 	#three {
-		background: url("images/overlay.png"), url("../../images/thumbs/02.jpg");
-		background-size: 256px 256px, cover;
+		/*background: url("images/overlay.png"), url("../../images/thumbs/02.jpg");
+		*/background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		background-color: #000000eb;
 	}
 
 /* Contact */
