@@ -1488,7 +1488,7 @@ input, select, textarea {
 				position: relative;
 				left: 0.1rem;
 				font-size: 1.75rem;
-				color:#1d415c;
+				color:#1f407f;
 			}
 			.button.icon.circle.fa-angle-right:hover{
 				background-color: #EAD7D7;
@@ -1672,7 +1672,6 @@ input, select, textarea {
 
 
 					#header a:hover {
-
 					color: #E3655B;
 						
 					}
@@ -2216,7 +2215,7 @@ input, select, textarea {
 			.panel > *.color0 {
 /*				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);*/
 				background-size: 128px 128px, auto;
-				color:#1c415c;
+				color:#1F407F;
 			}
 
 			.panel > *.color1 {
@@ -3599,7 +3598,7 @@ input, select, textarea {
 		cursor: default;
 		position: relative;
 		height: 32rem;
-		box-shadow: 0 1rem 3rem 1rem rgb(29 65 92);
+		box-shadow: 0 1rem 3rem 1rem rgb(31 64 127);
 
 
 	}
