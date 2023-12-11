@@ -2038,6 +2038,7 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 1.0;
 				margin: 0;
+/*				width:100%;*/
 			}
 
 			.main.style1.inactive > .content {
