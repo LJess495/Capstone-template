@@ -2153,6 +2153,9 @@ input, select, textarea {
 			background-attachment: scroll !important;
 		}
 
+		
+		}
+
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
@@ -2232,8 +2235,8 @@ input, select, textarea {
 
 			.main > .content {
 				max-width: calc(100% - 1.5em);
-			}
 
+			}
 		}
 
 /* Footer */
@@ -2360,6 +2363,9 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-color: #000000eb;
 	}
+
+
+
 
 /* Contact */
 
