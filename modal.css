@@ -17,11 +17,12 @@
 
 .modal-content {
     align-self: center;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(252 239 239);
     padding: 2rem 3rem;
     width: 84rem;
     max-height: 85vh;
     overflow-y: scroll;
+    border-radius: 20px;
 }
 
 .btn-close {
@@ -91,7 +92,8 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: rgb(255 246 246);
+  border-radius: 20px;
 }
 
 /* Handle */
@@ -102,5 +104,6 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #000;
+  
 }
